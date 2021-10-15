@@ -3,20 +3,12 @@ import Items from "./Items"
 
 
     // Model
-class Section extends Component {
+class Menu extends Component {
   
-
-    // Controller
-    componentUpdate() {
-    }
-
-    componentMount() {
-    }
-
-
+    
     // View
     render() {
-        const randomImg = [
+        const randomImgBreakfast = [
             './img/sausage.png',
             './img/bacon.jpeg',
             './img/omlette.jpeg',
@@ -41,12 +33,12 @@ class Section extends Component {
             './img/hotchoco.jpeg',
         ]
         return (
-
+            
             <div>
 
                 <h4 className='border border-top border-dark border-5 p-3'>All Day Breakfast</h4>
                 <div className='row row-cols-md-3 row-cols-sm-1'>
-                    {randomImg.slice(0,9).map((item,index) => <Items uri={'1/8'} src={item} key={index}/>)}
+                    {randomImgBreakfast.slice(0,9).map((item,index) => <Items uri={'1/8'} src={item} key={index}/>)}
                 </div>
                 <h4 className='border border-top border-dark border-5 p-3'>For Your Sweet Tooth</h4>
                 <div className='row row-cols-md-3 row-cols-sm-1'>
@@ -58,11 +50,15 @@ class Section extends Component {
                 </div>
             </div>
 
-
-
-
-        )
-    }
+    )
 }
 
-export default Section;
+// Controller
+componentUpdate() {
+}
+componentMount() {
+}
+
+}
+
+export default Menu;

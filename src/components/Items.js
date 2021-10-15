@@ -2,11 +2,6 @@
 import React, { Component } from "react"
 import axios from "axios"
 
-//model
-//controller
-//view - show item name, description and image
-
-
 // Model
 class Items extends Component {
     constructor(props) {
@@ -17,7 +12,6 @@ class Items extends Component {
     }
 
     componentUpdate() {
-
     }
 
     componentMount() {
@@ -27,7 +21,7 @@ class Items extends Component {
     getAPI() {
         // Make a request for a user with a given ID
         const apiKey = "https://port-3000-aincbootcampapi-ianrios529550.codeanyapp.com"
-        //let this_ = this;
+        //let this = this;
         axios.get(apiKey + "/api/menu/type_amount/" + this.props.uri)
             .then(response => {
                 this.setState({
@@ -35,10 +29,8 @@ class Items extends Component {
                 })
             })
             .catch(function (error) {
-             
             })
             .then(function () {
-                // always executed
             });
     }
 

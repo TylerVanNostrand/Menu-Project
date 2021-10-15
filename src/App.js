@@ -1,5 +1,5 @@
 import './App.css';
-import Section from "./components/Section"
+import Section from "./components/Menu"
 import './index.css';
 
 
@@ -8,7 +8,7 @@ function App() {
         <div className='container bg-warning'>
             <div className='row bg-warning text-center'>
                 <h1 className="text-center">Tyler's House of Breakfast</h1>
-                <h1 className='h6 text-decoration-none text-dark border-dark fw-bold'>348 E Main St, Lexington, KY</h1>
+                <h1 className='h6 text-decoration-none text-dark border-dark fw-bold'>204 Shoreside Dr, Lexington, KY</h1>
                     <h6>Hours of Operation</h6>
                     <h6>Mon-Sun 1am to 12am</h6>
                 <h3>Menu</h3>
