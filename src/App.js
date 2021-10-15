@@ -8,7 +8,9 @@ function App() {
         <div className='container bg-warning'>
             <div className='row bg-warning text-center'>
                 <h1 className="text-center">Tyler's House of Breakfast</h1>
+                <h1 className='h6 text-decoration-none text-dark border-dark fw-bold'>(Definitely Not Waffle House)</h1>
                 <h1 className='h6 text-decoration-none text-dark border-dark fw-bold'>204 Shoreside Dr, Lexington, KY</h1>
+
                     <h6>Hours of Operation</h6>
                     <h6>Mon-Sun, All Day!</h6>
                     <h6>24/7</h6>
