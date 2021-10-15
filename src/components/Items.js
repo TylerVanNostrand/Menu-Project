@@ -1,11 +1,11 @@
-//items
+
+import React, { Component } from "react"
+import axios from "axios"
+
 //model
 //controller
 //view - show item name, description and image
 
-
-import React, { Component } from "react"
-import axios from "axios"
 
 // Model
 class Items extends Component {
@@ -16,11 +16,11 @@ class Items extends Component {
         }
     }
 
-    componentDidUpdate() {
-        // console.log('update component')
+    componentUpdate() {
+
     }
 
-    componentDidMount() {
+    componentMount() {
         this.getAPI();
     }
 
@@ -43,7 +43,7 @@ class Items extends Component {
     }
 
     inputData() {
-        // const image = 
+     
     }
 
     // View

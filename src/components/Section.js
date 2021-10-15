@@ -7,10 +7,10 @@ class Section extends Component {
   
 
     // Controller
-    componentDidUpdate() {
+    componentUpdate() {
     }
 
-    componentDidMount() {
+    componentMount() {
     }
 
 
@@ -44,15 +44,15 @@ class Section extends Component {
 
             <div>
 
-                <h4 className='border border-top p-3'>All Day Breakfast</h4>
+                <h4 className='border border-top border-dark border-5 p-3'>All Day Breakfast</h4>
                 <div className='row row-cols-md-3 row-cols-sm-1'>
                     {randomImg.slice(0,9).map((item,index) => <Items uri={'1/8'} src={item} key={index}/>)}
                 </div>
-                <h4 className='border border-top p-3'>For Your Sweet Tooth</h4>
+                <h4 className='border border-top border-dark border-5 p-3'>For Your Sweet Tooth</h4>
                 <div className='row row-cols-md-3 row-cols-sm-1'>
                     {randomImgDessert.slice(0,3).map((item,index) => <Items uri={'7/8'} src={item} key={index}/>)}
                 </div>
-                   <h4 className='border border-top p-3'>Drinks</h4>
+                   <h4 className='border border-top border-dark border-5 p-3'>Drinks</h4>
                 <div className='row row-cols-md-3 row-cols-sm-1'>
                     {randomImgDrink.slice(0,6).map((item,index) => <Items uri={'8/6'} src={item} key={index}/>)}
                 </div>
