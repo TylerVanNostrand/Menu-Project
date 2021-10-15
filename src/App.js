@@ -23,6 +23,8 @@ function App() {
                     <h5 className="text-center">Tyler's House of Breakfast</h5>
                         <h6>Call Us</h6>
                         <h6>(555) 555-5555</h6>
+                        <h1 className='h6 text-decoration-none text-dark border-dark fw-bold'>(Definitely Not Waffle House)</h1>
+
                     <ul className="nav col justify-content-center list-unstyled d-flex">
                         <div className="template-demo">
                         </div>
