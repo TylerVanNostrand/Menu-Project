@@ -4,7 +4,12 @@ import Items from "./Items"
 
     // Model
 class Menu extends Component {
-  
+   // Controller
+    componentUpdate() {
+    }
+
+    componentMount() {
+    }
     
     // View
     render() {
@@ -51,12 +56,6 @@ class Menu extends Component {
             </div>
 
     )
-}
-
-// Controller
-componentUpdate() {
-}
-componentMount() {
 }
 
 }

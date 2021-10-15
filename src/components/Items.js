@@ -11,10 +11,10 @@ class Items extends Component {
         }
     }
 
-    componentUpdate() {
+    componentDidUpdate() {
     }
 
-    componentMount() {
+    componentDidMount() {
         this.getAPI();
     }
 
